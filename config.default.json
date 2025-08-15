@@ -1,11 +1,11 @@
 {
 	"aowowUrl": "https://wowgaming.altervista.org/aowow",
-	"websiteUrl": "https://mywebsite.com",
-	"websiteName": "My Website",
+	"websiteUrl": "https://godswow.org",
+	"websiteName": "GodsWoW Online - OLYMPUS",
 	"websiteRoot": "",
 	"iframeMode": {
-		"enabled": false,
-		"url": "https://mywebsite.com/armory"
+		"enabled": true,
+		"url": "https://godswow.org/armory"
 	},
 	"loadDbcs": true,
 	"hideGameMasters": true,
@@ -13,14 +13,14 @@
 	"useZamCdn": false,
 	"realms": [
 		{
-			"name": "AzerothCore",
+			"name": "OLYMPUS",
 			"realmId": 1,
 			"authDatabase": "acore_auth",
 			"charactersDatabase": {
 				"host": "localhost",
 				"port": 3306,
 				"user": "acore",
-				"password": "acore",
+				"password": "tralala12",
 				"database": "acore_characters"
 			}
 		}
@@ -29,7 +29,7 @@
 		"host": "localhost",
 		"port": 3306,
 		"user": "acore",
-		"password": "acore",
+		"password": "tralala12",
 		"database": "acore_world"
 	},
 	"dbQueryTimeout": 10000
