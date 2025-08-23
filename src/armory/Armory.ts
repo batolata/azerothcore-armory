@@ -61,7 +61,7 @@ export class Armory {
 
 	public async start(): Promise<void> {
 		const app: Express = express();
-		const listenPort = 48733;
+		const listenPort = 48733; //port
 
 		this.logger.info("Loading config...");
 		this.config = await Config.load(this.logger);
